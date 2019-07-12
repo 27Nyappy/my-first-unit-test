@@ -11,5 +11,5 @@ function showSum() {
     const x = Number(xInput.value);
     const y = Number(yInput.value);
 
-    sum.textContext = add(x, y);
+    sum.textContent = add(x, y);
 }
